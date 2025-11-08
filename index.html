@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+     <!-- icons -->
+      <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/all.min.css">
+    
+     <!-- styles -->
+     <link rel="stylesheet" href="styles/style.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+     <script src="./node_modules//bootstrap//dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <title>babycare</title>
+</head>
+<body>
+   
+<nav class="navbar navbar-expand-lg bg-body-white py-4 px-5">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand" href="index.html"><img src="image/babycare.png" width="150" height="30" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0  fw-semibold text-black">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="landing.html">Landing</a></li>
+            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+            <li><a class="dropdown-item" href="services.html">Services</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+        <button class="btn text-white fw-bold rounded-pill px-4 w-auto" style="background-color: var(--main-color);" >Get a Quote</button>
+    </div>
+  </div>
+</nav>
+<!-- header -->
+
+<header class="w-100 d-flex  flex-column flex-lg-row">
+  <div class="w-100 w-md-50 " data-aos="fade-right">
+    <img src="image/mother-baby.jpg" class="w-100" alt="">
+  </div>
+  <div class="w-100 w-md-50 p-5 d-flex flex-column align-items-center justify-content-center gap-3 " style="background-color: var(--bg-color);">
+    <h1 class="fw-bold w-50 text-center" data-aos="zoom-in" data-aos-delay="500">Quickly find a Babysitter</h1>
+    <button class="btn rounded-pill py-3 px-5 fs-5 fw-bold text-white " style="background-color: var(--main-color);"  data-aos="zoom-in" data-aos-delay="1000">Book a Babysitter</button>
+    <span class="fs-5 "  data-aos="fade-up"  data-aos-delay="1500">or</span>
+    <div class="fw-bold d-flex align-items-center fs-5 gap-3"  data-aos="fade-up" data-aos-delay="2000">
+      <i class="fa-solid fa-phone" style="color: var(--main-color);"></i>
+      <span class="fw-bold ">+1-108-123-6548</span>
+    </div>
+
+  </div>
+</header>
+
+<!-- Welcome  -->
+ <section class="welcome w-100 d-flex " >
+    <div class="w-100 w-md-50 d-flex flex-column p-5">
+      <h1 class="px-5 fw-bold "data-aos="fade-right">Welcome to </h1>
+      <h1 class="px-5 fw-bold "data-aos="fade-right"> Babysitting Agency</h1>
+      <img src="image/mother-playing.jpg" class="w-100 rounded-5 mx-5" data-aos="flip-up" data-aos-delay="500" alt="">
+    </div>
+    <div class="w-100 w-md-50 d-flex flex-column gap-5 p-5">
+      <p class="fs-5 pt-5 " data-aos="fade-up" >magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="d-flex flex-column  gap-3 " data-aos="fade-left" data-aos-delay="1000">
+      <div class="d-flex align-items-center gap-3">
+        <i class="fa-solid fa-check"></i>
+        <span class="fs-5">Social and Emotional Development for Children</span>
+      </div>
+      <div class="d-flex align-items-center gap-3" >
+        <i class="fa-solid fa-check"></i>
+        <span class="fs-5">Enhancing Communication Skills</span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <i class="fa-solid fa-check"></i>
+        <span class="fs-5">Learning New Skills and Interests</span>
+      </div>
+     </div>
+     <button class="btn rounded-pill py-3 px-5 fs-5 fw-bold text-white w-50" style="background-color: var(--main-color);"  data-aos="fade-up" data-aos-delay="1500">LEARN MORE</button>
+    </div>
+    
+ </section>
+
+ <!-- What We Offer -->
+  <section class="d-flex flex-column gap-3 p-5 " style="background-color: var(--bg-color);">
+  <h1 class="text-center">What We Offer</h1>
+  <p class="text-center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+  <div class="container p-6 w-100 h-100">
+    <div class="row g-5 ">
+      <div class="col-12 col-lg-6 " data-aos="fade-up">
+          <div class="card  rounded-5 overflow-hidden" style="border: 1px solid var(--main-color);">
+            <img src="image/full-shot.jpg"  class="card-img-top " style="height: 300px; object-fit: cover;">
+            <div class="card-body d-flex flex-column ">
+              <h3 data-aos="fade-right">Babbysitting</h3>
+              <p data-aos="fade-left" data-aos-delay="1000">Ut enim ad minim veniam</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6" data-aos="fade-up">
+          <div class="card  rounded-5 overflow-hidden" style="border: 1px solid var(--main-color);">
+            <img src="image/cute-little-baby-their-fist-year1.jpg"  class="card-img-top" style="height: 300px; object-fit: cover;">
+            <div class="card-body d-flex flex-column ">
+              <h3 data-aos="fade-right">Child Care</h3>
+              <p data-aos="fade-left" data-aos-delay="1000">Ut enim ad minim veniam</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="card  rounded-5 overflow-hidden" style="border: 1px solid var(--main-color);">
+            <img src="image/little-girl.jpg"  class="card-img-top"  style="height: 300px; object-fit: cover;">
+            <div class="card-body d-flex flex-column ">
+              <h3 data-aos="fade-right">After School Care</h3>
+              <p data-aos="fade-left" data-aos-delay="1000">Ut enim ad minim veniam</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6" data-aos="fade-up"  data-aos-delay="500">
+          <div class="card  rounded-5 overflow-hidden" style="border: 1px solid var(--main-color);">
+            <img src="image/portrait-female-pediatrician-wor.jpg"  class="card-img-top "  style="height: 300px; object-fit: cover;">
+            <div class="card-body d-flex flex-column ">
+              <h3 data-aos="fade-right">Emergency Care</h3>
+              <p data-aos="fade-left" data-aos-delay="1000">Ut enim ad minim veniam</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Need a Babysitter?  -->
+ <section class="p-5 d-flex flex-column gap-5">
+  <h1 class="px-5" data-aos="fade-up">Need a Babysitter? </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <form class="rounded-5 d-flex flex-column gap-3 p-5 " style="background-color: lightgray;">
+          <div class="d-flex flex-column gap-1">
+            <label for="name">Name</label>
+            <input type="text" class="rounded-2 p-1"  id="name">
+          </div>
+          <div class="d-flex flex-column gap-1">
+            <label for="phone">Phone</label>
+            <input type="text" class="rounded-2 p-1"  id="phone">
+          </div>
+            <div class="d-flex flex-column gap-1">
+            <label for="message">Message</label>
+            <textarea  class="rounded-2 p-1" id="message"></textarea>
+          </div>
+          <button class="btn fw-bold fs-5 py-2 px-4 w-auto text-white rounded-pill" style="background-color: var(--main-color);">REQUEST FOR CALL</button>
+        </form>
+      </div>
+      <div class="col-12 col-lg-6 px-5">
+        <div class="d-flex  align-items-center justify-content-between mt-5" data-aos="fade-up" data-aos-delay="1000">
+          <div class="d-flex flex-column  justify-content-center g-5">
+            <span class="fw-bold fs-5" style="color: var(--main-color);">01</span>
+            <span class=" fs-5 fw-bold"style="width: 150px;">Baby Care Solutions</span>
+          </div>
+          <div class="d-flex flex-column  justify-content-center g-5">
+            <span class="fw-bold fs-5" style="color: var(--main-color);">02</span>
+            <span class=" fs-5 fw-bold"style="width: 150px;">Child Care Professionals</span>
+          </div>
+        </div>
+        <div class="d-flex  align-items-center justify-content-between mt-5" data-aos="fade-up" data-aos-delay="1500">
+          <div class="d-flex flex-column  justify-content-center g-5">
+            <span class="fw-bold fs-5" style="color: var(--main-color);">03</span>
+            <span class=" fs-5 fw-bold"style="width: 150px;">We give children a big boost on learning</span>
+          </div>
+          <div class="d-flex flex-column  justify-content-center g-5">
+            <span class="fw-bold fs-5" style="color: var(--main-color);">04</span>
+            <span class=" fs-5 fw-bold"style="width: 150px;">For children 5 months to 6 years of age</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- What Clients Say -->
+ <section class="Clients d-flex flex-column  p-5" style="background-color: var(--bg-color);">
+  <h1 class="text-center mb-5" data-aos="zoom-in">What Clients Say</h1>
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card p-5 rounded-5 d-flex flex-column g-3 align-items-center justify-content-center" style="border: 2px solid var(--main-color);" data-aos="fade-up" data-aos-delay="500">
+          <i class="fa-solid fa-quote-right rounded-pill text-white d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; background-color: var(--main-color);"></i>
+          <p class="fs-5 1h-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus</p>
+          <h5>Celia Almeda</h5>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card p-5 rounded-5 d-flex flex-column g-3 align-items-center justify-content-center" style="border: 2px solid var(--main-color);" data-aos="fade-up" data-aos-delay="500">
+          <i class="fa-solid fa-quote-right rounded-pill text-white d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; background-color: var(--main-color);"></i>
+          <p class="fs-5 1h-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus</p>
+          <h5>Frank Kinney</h5>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card p-5 rounded-5 d-flex flex-column g-3 align-items-center justify-content-center" style="border: 2px solid var(--main-color);" data-aos="fade-up" data-aos-delay="500">
+          <i class="fa-solid fa-quote-right rounded-pill text-white d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; background-color: var(--main-color);"></i>
+          <p class="fs-5 1h-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus</p>
+          <h5>Marry Larson</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <!-- Every Baby with Love & Safety -->
+  <section class=" p-5">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-12 col-lg-6 mb-2" data-aos="fade-right" data-aos-duration="1000">
+          <div class=" d-flex flex-column gap-3 " data-aos="fade-right">
+             <h1 class="px-5 fw-bold" >Every Baby with Love & Safety</h1>
+             <p class="px-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloribus laudantium ducimus sunt iusto nulla officia molestiae aliquid dignissimos? Laudantium distinctio accusantium quisquam tenetur architecto, numquam amet suscipit repudiandae dolore!</p>
+             <div class="btn ms-5 text-white fs-5 fw-bold rounded-pill py-2 px-4  " style="background-color: var(--main-color); width: 250px;" data-aos="zoom-in" data-aos-delay="1000" >LEARN More</div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-2" data-aos="fade-left">
+          <div class="d-flex flex-column gap-5 px-5">
+
+            <div class="d-flex gap-5">
+              <div class="fs-3 fw-bold gap-2">
+                <div class="d-flex align-items-center gap-3" style="color: var(--main-color);">
+                  <i class="fa-solid fa-location-dot" data-aos="zoom-in" data-aos-delay="1000"></i>
+                  <span class="counter" data-target="15">10</span>
+                </div>
+                <span class="ps-3 fs-4">Location Service</span>
+              </div>
+              <div class="fs-3 fw-bold gap-2">
+                <div class="d-flex align-items-center gap-3" style="color: var(--main-color);">
+                  <i class="fa-solid fa-clock" data-aos="zoom-in" data-aos-delay="1000"></i>
+                  <span class="counter" data-target="24">19</span>
+                  <span class="">/ 7</span>
+                </div>
+                <span class="ps-3 fs-4">Customer care</span>
+              </div>
+            </div>
+                        
+            <div class="d-flex gap-5">
+              <div class="fs-3 fw-bold gap-2">
+                <div class="d-flex align-items-center gap-3" style="color: var(--main-color);">
+                  <i class="fa-solid fa-flag" data-aos="zoom-in" data-aos-delay="1000"></i>
+                  <span class="counter" data-target="8">3</span>
+                </div>
+                <span class="ps-3 fs-4">Years Experience</span>
+              </div>
+              <div class="fs-3 fw-bold gap-2">
+                <div class="d-flex align-items-center gap-3" style="color: var(--main-color);">
+                  <i class="fa-solid fa-user-group" data-aos="zoom-in" data-aos-delay="1000"></i>
+                  <span class="counter" data-target="1.8">1.3</span>
+                  <span>M+</span>
+                </div>
+                <span class="ps-3 fs-4">Happy Clients</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Discover more -->
+ <section class="d-flex flex-column gap-5">
+  <h1 class="text-center fw-bold">Discover more</h1>
+  <div class="container">
+    <div class="row g-5">
+
+<div class="swiper">
+  <!-- Additional required wrapper -->
+<div class="swiper-wrapper">
+<div class=" swiper-slide">
+      <div class="col-lg-6  ">
+        <div class="card h-100 overflow-hidden rounded-5 border-0">
+        <img src="image/mother-daughter.jpg" class="card-img-top rounded-5 h-50" alt="">
+          <div class="card-body d-flex flex-column gap-1 p-4">
+            <h3 class="fs-4">Babysitting Service as a social benefit</h3>
+            <p >Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span class="opacity-50">Aug 02, 2024 </span>
+            <button class="btn rounded-pill py-2 px-3 fs-6 text-white w-50" style="background-color: var(--main-color)">READ MORE</button>
+          </div>
+        </div>
+      </div>
+</div>
+<div class=" swiper-slide">
+      <div class="col-lg-6  ">
+        <div class="card h-100 overflow-hidden rounded-5 border-0">
+        <img src="image/teacher-toddler.jpg" class="card-img-top rounded-5 h-50" alt="">
+          <div class="card-body d-flex flex-column gap-1 p-4">
+            <h3 class="fs-4">The 10 most fun activities while babysitting</h3>
+            <p >Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span class="opacity-50">Aug 02, 2024 </span>
+            <button class="btn rounded-pill py-2 px-3 fs-6 text-white w-50" style="background-color: var(--main-color)">READ MORE</button>
+          </div>
+        </div>
+      </div>
+</div>
+<div class=" swiper-slide">
+      <div class="col-lg-6  ">
+        <div class="card h-100 overflow-hidden rounded-5 border-0">
+        <img src="image/adorable-toddler-playing.jpg" class="card-img-top rounded-5 h-50" alt="">
+          <div class="card-body d-flex flex-column gap-1 p-4">
+            <h3 class="fs-4">4 Unique Game Ideas to Play with Kids</h3>
+            <p >Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span class="opacity-50">Aug 02, 2024 </span>
+            <button class="btn rounded-pill py-2 px-3 fs-6 text-white w-50" style="background-color: var(--main-color)">READ MORE</button>
+          </div>
+        </div>
+      </div>
+</div>
+<div class=" swiper-slide">
+      <div class="col-lg-6  ">
+        <div class="card h-100 overflow-hidden rounded-5 border-0">
+        <img src="image/full-shot-kid-posing-studio_23-2.jpg" class="card-img-top rounded-5 h-50" alt="">
+          <div class="card-body d-flex flex-column gap-1 p-4">
+            <h3 class="fs-4">Games for Babysitting:The Best Day Ever!</h3>
+            <p >Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span class="opacity-50">Aug 02, 2024 </span>
+            <button class="btn rounded-pill py-2 px-3 fs-6 text-white w-50" style="background-color: var(--main-color)">READ MORE</button>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+ <div class="swiper-button-prev text-white d-flex align-items-center justify-content-center rounded-pill " style="background-color: lightslategray;"></div>
+ <div class="swiper-button-next text-white d-flex align-items-center justify-content-center rounded-pill " style="background-color: lightslategray;"></div>
+ <div class="swiper-pagination"></div>
+</div>
+
+    </div>
+  </div>
+ </section>
+
+ <!-- Answers to Your Questions -->
+  <section class="AQ  p-5 " style="background-color: var(--bg-color);">
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 col-lg-4">
+          <h1 class="fw-bold fs-1">Answers to Your Questions</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+    <div class="d-flex flex-column gap-2 ">
+      <div class=" Questions  d-flex align-items-center justify-content-between opacity-50 pb-3" style="border-bottom: 2px solid var(--main-color);" >
+        <h5>How do I find a babysitter near me online?</h3>
+        <i class="fa-solid fa-chevron-down"  style="color: var(--main-color)"></i>
+      </div>
+      <p class="Answers fs-5 my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quaerat, aperiam exercitationem sint ratione sapiente, maxime ab laudantium ut ex, explicabo fugit rerum doloribus eaque odit vero libero accusantium suscipit.</p>
+
+      <div class=" Questions  d-flex align-items-center justify-content-between opacity-50 pb-3" style="border-bottom: 2px solid var(--main-color);" >
+        <h5>How should I handle interviewing sitters?</h3>
+        <i class="fa-solid fa-chevron-down" style="color: var(--main-color)"></i>
+    </div>
+    <p class="Answers fs-5 my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ea ratione modi? Repudiandae a sapiente fuga delectus nostrum vero inventore laboriosam repellendus eveniet, et vel possimus eligendi! Nostrum, doloremque libero.</p>
+    <div class=" Questions  d-flex align-items-center justify-content-between opacity-50 pb-3" style="border-bottom: 2px solid var(--main-color);" >
+      <h5>How much should I pay my babysitter?</h3>
+      <i class="fa-solid fa-chevron-down" style="color: var(--main-color)"></i>
+      </div>
+      <p class="Answers fs-5 my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quidem, quam, accusantium, saepe voluptates consequuntur aliquam repellendus beatae hic corrupti cupiditate voluptas molestias nihil culpa reprehenderit magnam laboriosam. In, ducimus.</p>
+      <div class=" Questions  d-flex align-items-center justify-content-between opacity-50 pb-3" style="border-bottom: 2px solid var(--main-color);"  >
+        <h5>Which childcare type is right for me?</h3>
+        <i class="fa-solid fa-chevron-down" style="color: var(--main-color)"></i>
+      </div>
+      <p class="Answers fs-5 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit animi ullam accusantium! Laborum consequatur pariatur, ducimus, alias deleniti culpa odit fugit voluptates sit provident saepe officiis ea possimus quas?</p>
+      </div>
+
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <!-- Just find the right child care -->
+<section class=" rightchildcare d-flex flex-column align-items-center gap-3 p-5 h-100" >
+  <h1 class="text-center "  data-aos="fade-up">Just find the right child care</h1>
+  <p class="text-center w-75 fs-4 "  data-aos="fade-up">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.  </p>
+  <div class="container w-100 ">
+    <div class="row ">
+      <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/678.jpg " class="w-100 h-75" >
+        </div> 
+        <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/bg-min.jpg" class="w-100 h-75" >
+        </div>
+        <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/mother-playing.jpg" class="w-100 h-75" >
+        </div>
+        <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/mother-baby.jpg" class="w-100 h-75" >
+        </div>
+        <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/cute-little-baby-their-fist-year1.jpg" class="w-100 h-75 " >
+        </div>
+        <div class="col-12 col-md-6 col-lg-4  overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+          <img src="image/little-girl.jpg" class="w-100 h-75 " >
+        </div>
+     </div>
+
+    <div class="btn fs-6 fw-bold text-white py-2 px-5 rounded-pill" style="background-color: var(--main-color);">VIEW MORE</div>
+  </div>
+</section>
+
+
+<!--Meet Your Babysitter  -->
+<section class="d-flex flex-column align-items-center gap-5 p-5" style="background-color: var(--bg-color);">
+  <h1 class="text-center fw-bold">Meet Your Babysitter</h1>
+  <div class="container gap-3">
+    <div class="row mt-4">
+      <div class="col-12 col-lg-6">
+        <div class="card overflow-hidden rounded-5 border-0 d-flex flex-row m-2 p-4 gap-3" style="background-color: white;" data-aos="zoom-in" data-aos-delay="500">
+          <img src="image/jane.jpg" class="card-img rounded-pill" style="width: 175px; height: 175px;">
+          <div class="card-body">
+            <h3 class="fw-bold">Jane Matthews</h3>
+            <p class="fs-5">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="media d-flex gap-3 text-white my-3 opacity-75">
+              <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-x-twitter d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-instagram d-flex align-items-center justify-content-center rounded-pill  " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-lg-6">
+        <div class="card overflow-hidden rounded-5 border-0 d-flex flex-row m-2 p-4 gap-3" style="background-color: white;" data-aos="zoom-in" data-aos-delay="500">
+          <img src="image/mary.png" class="card-img rounded-pill" style="width: 175px; height: 175px;">
+          <div class="card-body">
+            <h3 class="fw-bold">Mary Smith </h3>
+            <p class="fs-5">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="media d-flex gap-3 text-white my-3 opacity-75">
+              <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-x-twitter d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-instagram d-flex align-items-center justify-content-center rounded-pill  " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+
+    </div>
+
+     <div class="row mt-4">
+      <div class="col-12 col-lg-6 gap-3">
+        <div class="card overflow-hidden rounded-5 border-0 d-flex flex-row m-2 p-4 gap-3" style="background-color: white;" data-aos="zoom-in" data-aos-delay="1000">
+          <img src="image/mila.jpg" class="card-img rounded-pill" style="width: 175px; height: 175px;">
+          <div class="card-body">
+            <h3 class="fw-bold">Mila Smith</h3>
+            <p class="fs-5">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="media d-flex gap-3 text-white my-3 opacity-75">
+              <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-x-twitter d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-instagram d-flex align-items-center justify-content-center rounded-pill  " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 ">
+        <div class="card overflow-hidden rounded-5 border-0 d-flex flex-row m-2 p-4 gap-3" style="background-color: white;" data-aos="zoom-in" data-aos-delay="1000">
+          <img src="image/glady.jpg" class="card-img rounded-pill" style="width: 175px; height: 175px;">
+          <div class="card-body">
+            <h3 class="fw-bold">Gladys Burton</h3>
+            <p class="fs-5">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+            <div class="media d-flex gap-3 text-white my-3 opacity-75">
+              <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-x-twitter d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-instagram d-flex align-items-center justify-content-center rounded-pill  " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+
+    </div>
+  </div>
+  <div class="btn text-center text-white fw-bold fs-5  rounded-pill" style="background-color: var(--main-color);">More Babysitter Near Me</div>
+
+</section>
+
+<!-- Free up time  for work, family or friends -->
+ <section class="freeup container-fluid h-100">
+  <div class="row top min-h-50vh  ">  </div>
+  <div class="row bottom min-h-50vh"></div>
+
+  <div class="overlay d-flex flex-column align-items-center justify-content-center gap-5 p-5 h-50 bg-white rounded-5 ">
+    <h1 class="fs-1 fw-bold" data-aos="fade-down">Free up time  for work, family or friends</h1>
+    <button class="btn rounded-pill py-3 px-5 fs-5 fw-bold text-white " style="background-color: var(--main-color);" data-aos="zoom-in" data-aos-delay="1000">BOOK A BABYSITTER</button>
+  </div>
+   <div class="overlay2 d-flex align-items-center justify-content-between mx-auto h-25 rounded-5 mb-2"style="background-color: var(--bg-color);" data-aos="fade-left" data-aos-delay="1000">
+    <h1 class="w-50 fw-bold ">Your little ones deserve the very best care.</h1>
+    <button class="btn rounded-pill py-3 px-5 fs-5 fw-bold text-white " style="background-color: var(--main-color);" data-aos="zoom-in" data-aos-delay="1000">BOOK NOW</button>
+   </div>
+ </section>
+
+ <!-- contact us -->
+  <section class="d-flex gap-5 p-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6" data-aos="fade-up">
+          <div class="d-flex flex-column gap-3 p-5 ">
+           <h1 class="fw-bold ">We are here to help</h1>
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+           <div class="d-flex align-items-center gap-3 p-5 fs-1 fw-bold rounded-5" style="background-color: var(--bg-color);">
+            <i class="fa-solid fa-phone" style="color: var(--main-color);"></i>
+            <span class="fw-bold fs-2">+1-108-123-6548</span>
+           </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6" data-aos="fade-left">
+          <h1 class="fw-bold fs-1">Contact Us</h1>
+          <form class="d-flex flex-column gap-3 p-5 rounded-5" style="background-color: lightgray;">
+            <div class="d-flex flex-column gap-1">
+              <label for="name">Name</label>
+              <input type="text" class="rounded-2 p-1"  id="name">
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <label for="email">Email</label>
+              <input type="email" class="rounded-2 p-1"  id="email">
+            </div>
+              <div class="d-flex flex-column gap-1">
+              <label for="message">Message</label>
+              <textarea  class="rounded-2 p-1" id="message"></textarea>
+            </div>
+            <button class="btn fw-bold fs-5 py-2 px-4 w-auto text-white rounded-pill" style="background-color: var(--main-color);">REQUEST FOR CALL</button>
+          </form>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+   <footer class="d-flex flex-column text-white  p-5" style="background-color: var(--main-color);">
+    <div class="top">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-4 mb-4 ">
+            <img src="image/babycare3.png" style="width: 150px; height: 30px;">
+            <p class="py-3 fs-4">We offer child care services for families in need of a short-term babysitter, a nanny, or a childminder. </p>
+            <div class="d-flex  gap-2 fs-5">
+              <i class="fa-solid fa-location-dot text-white "></i>
+              <span class="">7507 Dewey Route, East Darrylville, ME 36932, United States</span>
+            </div>
+            <a class="text-white fs-6 py-5" href="#">show on map</a>
+            <div class="media d-flex gap-3 text-white my-3 opacity-75">
+              <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-x-twitter d-flex align-items-center justify-content-center rounded-pill " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+              <i class="fa-brands fa-instagram d-flex align-items-center justify-content-center rounded-pill  " style="background-color: var(--main-color); width: 30px; height: 30px; cursor: pointer;"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h3 class="fw-bold mb-4">Need a Babysitter? </h3>
+            <div class="d-flex align-items-center gap-3  fs-5 fw-bold " >
+            <i class="fa-solid fa-phone text-white"></i>
+            <span class="fw-bold fs-5">+1-108-123-6548</span>
+           </div>
+           <hr>
+           <p>Mon-Fri: 9 AM - 6 PM</p>
+           <p>Saturday: 9 AM - 4 PM</p>
+           <b>Emergency Available!</b>
+            <a class="d-flex align-items-center gap-3 fs-5 fw-bold text-white" href="" style="text-decoration: none;" >
+            <i class="fa-solid fa-message"></i>
+            <span class="fw-bold fs-5 py-5">roofing@support.com</span>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h3 class="fw-bold mb -4">Quick ​Links</h3>
+            <div class="d-flex flex-column gap-3 fs-5">
+              <a href="#" class="text-white" >About Company</a>
+              <a href="#" class="text-white" >Our Services</a>
+              <a href="#" class="text-white" >Blog</a>
+              <a href="#" class="text-white" >Our Team</a>
+              <a href="#" class="text-white" >Testimonials</a>
+              <a href="#" class="text-white" >Our Vision</a>
+          </div>
+       </div>
+    </div>   
+  </div>
+  </div>
+<hr>
+  <div class="bottom d-flex flex-column align-items-center gap-5 mt-4">
+    <h1 class="fw-bold">Newsletter</h1>
+    <div class="d-flex  gap-3 mt-3">
+      <input type="email" class="rounded-pill p-2 w-100" placeholder="Enter your email">
+      <button class="btn fw-bold fs-5 py-2 px-4 w-auto rounded-pill bg-white" style="color: var(--main-color);">Submite</button>
+    </div>
+    <p class="fs-5">BabyCare © 2025 All rights reserved. Terms of use and Privacy Policy</p>
+
+  </div>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

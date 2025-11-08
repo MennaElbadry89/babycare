@@ -1,0 +1,278 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.roboto-serif-main {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+:root{
+  --main-color: #f2480a;
+  --bg-color: #feece5;
+
+}
+.active{
+  color: var(--main-color) !important;
+  position: relative;
+}
+.active::after{
+  content: '';
+  width: 50px !important;
+  height: 2px !important;
+  background-color: var(--main-color) !important;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
+
+
+nav > ul{
+  color: black !important;
+}
+
+.Clients p{
+  line-height: 2;
+  
+}
+
+/* Keep Swiper slides from shrinking cards: let slides be auto-width and center content */
+.swiper {
+  padding:  0;
+}
+.swiper .swiper-wrapper {
+  align-items: stretch;
+}
+.swiper .swiper-slide {
+  /* let Swiper calculate slide width via slidesPerView; center contents */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.swiper .swiper-slide > .col-lg-6 {
+  /* prevent the inner column from stretching unexpectedly inside the slide */
+  flex: 0 0 auto;
+  display: block;
+  width: 100%;
+}
+.swiper .card {
+  width: 100%;
+  max-width: 540px; /* default max-width to keep card readable */
+  margin: 0 auto;
+}
+
+/* On small screens, make slides full-width so they behave like regular stacked cards */
+@media (max-width: 768px) {
+  .swiper .swiper-slide {
+    min-width: 100% !important;
+    justify-content: flex-start;
+  }
+  .swiper .swiper-slide > .col-lg-6 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Adjust card max-widths for multiple cards per row */
+@media (min-width: 768px) {
+  .swiper .card {
+    max-width: 420px; /* two cards comfortably */
+  }
+}
+
+@media (min-width: 992px) {
+  .swiper .card {
+    max-width: 320px; /* three cards per row */
+  }
+}
+
+
+
+.Questions{
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.Answers {
+  display: none;
+}
+section .Questions:hover{
+ opacity: 1 !important;
+ cursor: pointer;
+ color: var(--main-color);
+}
+
+.rightchildcare{
+  background-color: var(--bg-color);
+  height: 50vh !important;
+
+}
+
+.rightchildcare img{
+  object-fit: cover;
+  /* height: 100% !important; */
+}
+.rightchildcare img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.btn{
+  width: max-content !important;
+  padding: 5px 20px !important;
+}
+.btn:hover{
+  background-color: rgb(58, 58, 58) !important;
+  cursor: pointer;
+}
+.freeup{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.freeup .row.top{
+  height: 50vh;
+  background: url(../image/bg-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.freeup .row.bottom{
+  height: 50vh;
+  background-color: white;
+}
+
+.freeup .overlay{
+  width: 40%;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+@media (max-width: 990px) {
+  .freeup .overlay{
+    width: 70%;
+    top: 75px;
+    left: 30px;
+  } 
+}
+
+.freeup .overlay2{
+  position: absolute;
+  bottom: 0;
+  right: 85px;
+  width:80%;
+  padding: 100px  !important;
+  /* text-align: center; */
+}
+
+@media (max-width: 990px) {
+  .freeup .overlay2{
+    width: 90%;
+    right: 20px;
+    padding: 50px  !important;
+  } 
+}
+
+.contactHeader{
+  background: url(../image/mother-daughter-playing-together.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contactHeader .find{
+  width: 40% !important;
+  height: 80vh;
+  position: absolute !important;
+  top: 50px;
+  right: 50px;
+
+}
+
+
+@media (max-width: 990px) {
+  .contactHeader .find{
+    width: 80% !important;
+    height: 60vh;
+    top: 20px;
+    right: 20px;
+  } 
+}
+
+.btn.more:hover{
+  background-color: white !important;
+  color: gray !important;
+  cursor: pointer;
+}
+
+.headerAbout{
+  background: linear-gradient(rgba(0,0,0,.6) , rgba(0,0,0, .6)) , url(../image/teacher-toddler.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  
+
+}
+
+.text{
+  font-size: 20px !important;
+
+}
+@media (max-width: 768px) {
+  .details{
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 20px !important;
+    position: static !important;
+
+  }
+  
+   .text{
+   font-size: 16px !important;
+
+   }
+}
+
+/* .services {
+  height: 50vh;
+  background: var(--bg-color);
+  border-radius: 0 0 50px 50px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+} */
+.bg-split {
+  background: linear-gradient(to top, white 0%, white 50%,  var(--bg-color) 50%,  var(--bg-color) 100%);
+  border-radius: 0 0 50px 50px;
+}
+
+.landingLove{
+  background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) , url(../image/mother-daughter.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+
+}
+
+
