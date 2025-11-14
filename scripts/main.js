@@ -36,12 +36,12 @@
         slidesPerView: 1, // mobile default
         spaceBetween: 12,
         breakpoints: {
-          // when window width is >= 768px, show 2 slides
+          // @ window width is 768px, -> 2 slides
           768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          // when window width is >= 992px, show 3 slides
+          // @ window width is 992px, -> 3 slides
           992: {
             slidesPerView: 3,
             spaceBetween: 24,
@@ -80,9 +80,12 @@
   window.onload = function() {
     const rotating = document.getElementById('rotating');
     let angle = 0;
-    setInterval(() => {
-      angle = (angle + 1) % 360; 
+    const rotationInterval = setInterval(() => {
+      angle += 1;
       rotating.style.transform = `rotate(${angle}deg)`;
+      if (angle >= 360) {
+        clearInterval(rotationInterval);
+      }
     }, 10);
   }
 
