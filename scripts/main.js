@@ -29,19 +29,16 @@
         console.warn('Swiper is not loaded. Make sure the Swiper script is included before `scripts/main.js`.');
         return;
       }
-
       const swiper = new Swiper('.swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 1, // mobile default
+        slidesPerView: 1, 
         spaceBetween: 12,
         breakpoints: {
-          // @ window width is 768px, -> 2 slides
           768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          // @ window width is 992px, -> 3 slides
           992: {
             slidesPerView: 3,
             spaceBetween: 24,
@@ -77,15 +74,29 @@
 
 
 // Rotating Animation
-  window.onload = function() {
-    const rotating = document.getElementById('rotating');
+  // window.onload = function() {
+  //   const rotating = document.getElementById('rotating');
+  //   let angle = 0;
+  //   const rotationInterval = setInterval(() => {
+  //     angle += 1;
+  //     rotating.style.transform = `rotate(${angle}deg)`;
+  //     if (angle >= 360) {
+  //       clearInterval(rotationInterval);
+  //     }
+  //   }, 10);
+  // }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+
+  const rotating = document.getElementById('rotating');
+  if (rotating) {
     let angle = 0;
     const rotationInterval = setInterval(() => {
-      angle += 1;
-      rotating.style.transform = `rotate(${angle}deg)`;
-      if (angle >= 360) {
-        clearInterval(rotationInterval);
-      }
+      rotating.style.transform = `rotate(${angle++}deg)`;
+      if (angle > 360) clearInterval(rotationInterval);
     }, 10);
   }
+
+});
+
 
